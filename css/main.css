@@ -1,0 +1,251 @@
+body {
+font-family: 'Amaranth', sans-serif;
+background:#262626;}
+
+a {text-decoration:none; color:#F2B629;}
+/* Main Navigation */
+hr {border: 1px solid #f2b629;margin-top:2px}
+h2 {
+    line-height: 20px;
+    margin: 5px 5px 5px 0px;}
+#nav {
+	font-family: 'Amaranth', sans-serif;
+    width: 600px;
+    margin: 0 auto;
+}
+footer {
+    font-family: 'Amaranth', sans-serif;
+    width: 900px;
+    margin: -30px auto;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #f2b629;
+}
+.tabletop {}
+.table1img, .table1 {float: left;display: inline-block;width: 200px;height: 200px;}
+.table2 {float: left;display: inline-block;width: 530px;height: 170px;overflow: hidden;padding:10px}
+.table3 {text-align:right;float: left;display: inline-block;width: 150px;height: 200px;}
+ul#navigation {
+	margin:0px auto;
+	float:left;
+}
+
+/*.description ul {margin:0px !important} */
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #f2b629;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #000;
+  text-decoration: none;
+}
+ul#navigation li {
+	display:inline;
+	font-size:16px;
+	margin:0;
+	padding:0;
+	float:left;
+	position:relative;
+}
+
+ul#navigation li a {
+	padding:10px 25px;
+	color:#000;
+	text-decoration:none;
+	display:inline-block;
+	background: #F2B629;
+	
+	-webkit-transition:color 0.2s linear, background 0.2s linear;	
+	-moz-transition:color 0.2s linear, background 0.2s linear;	
+	-o-transition:color 0.2s linear, background 0.2s linear;	
+	transition:color 0.2s linear, background 0.2s linear;	
+}
+
+ul#navigation li a:hover {
+	background:#F2B629;
+	color:#282828;
+}
+
+ul#navigation li a.first {
+	border-left: 0 none;
+}
+
+ul#navigation li a.last {
+	border-right: 0 none;
+}
+
+ul#navigation li:hover > a {
+	background:#fff;
+}
+/* Drop-Down Navigation */
+ul#navigation li:hover > ul
+{
+/*these 2 styles are very important, 
+being the ones which make the drop-down to appear on hover */
+	visibility:visible;
+	opacity:1;
+}
+
+ul#navigation ul, ul#navigation ul li ul {
+	list-style: none;
+    margin: 0;
+    padding: 0;    
+/*the next 2 styles are very important, 
+being the ones which make the drop-down to stay hidden */
+    visibility:hidden;
+    opacity:0;
+    position: absolute;
+    z-index: 99999;
+	width:180px;
+	background:#f8f8f8;
+	box-shadow:1px 1px 3px #ccc;
+/* css3 transitions for smooth hover effect */
+	-webkit-transition:opacity 0.2s linear, visibility 0.2s linear; 
+	-moz-transition:opacity 0.2s linear, visibility 0.2s linear; 
+	-o-transition:opacity 0.2s linear, visibility 0.2s linear; 
+	transition:opacity 0.2s linear, visibility 0.2s linear; 	
+}
+
+ul#navigation ul {
+    top: 43px;
+    left: 1px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+ul#navigation ul li ul {
+    top: 0;
+    left: 181px; /* strong related to width:180px; from above */
+}
+
+ul#navigation ul li {
+	clear:both;
+	width:100%;
+	border:0 none;
+}
+
+ul#navigation ul li a {
+	background:none;
+	padding:7px 15px;
+	color:#616161;
+	text-shadow:1px 1px 0px #fff;
+	text-decoration:none;
+	display:inline-block;
+	border:0 none;
+	float:left;
+	clear:both;
+	width:150px;
+}
+p, h1, h2, h3{font-family: 'Amaranth', sans-serif;}
+table, th, td {
+	font-family: 'Amaranth', sans-serif;
+    border: 1px solid #F2B629;
+    border-collapse: collapse;
+	text-align:left;
+}
+th, td {
+    padding: 15px;
+}
+.logo {
+    background-image: url("../image/logo.png");
+    width: 438px;
+    height: 120px;
+	margin: 0 auto;
+}
+.bodybackground {
+	display:block;
+	margin: 40px auto;
+	width: 900px;
+	height:610px;
+	color:#fff;
+	padding:10px;
+	border: 1px solid #F2B629;
+}
+.centreimage {
+    width: 550px;
+    height: 500px;
+}
+.image-gallery{
+  position:relative;  
+  margin:0 auto;
+  width:600px;  
+  border-radius:20px;  
+}
+/*Sets Big Image style*/
+.image-gallery .big-image{
+  width:600px;
+  height:405px;   
+  margin:0 auto;  
+  position:relative;
+}
+.image-gallery .big-image img{
+  opacity:0;position:absolute;left:0px;top:0px; width:600px;
+  margin:0 auto;
+  transition: opacity 350ms;
+  box-shadow:0 1px 20px 1px rgba(0,0,0,0.7);
+}
+
+/*Selected image display*/
+.image-gallery .big-image img:target{opacity:1;}
+/*on select image display none the default image*/
+.image-gallery .big-image img:target ~ img#default{opacity:0;}
+
+/*Show Default Image in first load*/
+.image-gallery .big-image img#default{opacity:1;}
+
+
+/***Button***/
+.image-gallery .button{
+  font-weight:bold;
+  font-size:30px;
+  display:inline-block;
+  transform:scale(1,2);
+  background-color:#F2B629;
+  color:#222;
+  padding:4px 10px;
+  cursor:pointer;
+}
+.image-gallery .prev{position:absolute; left:0; top:444px;z-index: 2;}
+.image-gallery .next{position:absolute; right:0; top:444px;z-index: 2;}
+
+/***move thumbs on click on buttons***/
+.image-gallery .prev:active ~ .thumbs  ul{
+  transform:translateX(0%);
+  transition:3s all;
+}
+.image-gallery  .next:active ~ .thumbs  ul{
+  transform:translateX(-90%);
+  transition:3s all;  
+}
+  
+/***thumbs***/
+.image-gallery .thumbs{
+  overflow:hidden; white-space:nowrap; margin: 0 45px 0 0;
+}
+.image-gallery .thumbs ul{
+  float:left; transition:999999s all; transform:translateX(0);
+}
+.image-gallery .thumbs li{display:inline-block; margin-right:3px;}
+.image-gallery .thumbs li a:hover{opacity:1;}
+.image-gallery .thumbs li a{opacity:0.85;}
+.image-gallery .thumbs li a:focus{opacity:1;}
+.image-gallery .thumbs li img{width:128px;}
+
+
+/*other styles*/
+.title{font-size:30px;font-weight:bold;text-align:center;margin:15px 0;
+text-shadow:1px 1px 2px #1f1f1f;}
+.middle {margin:0 auto;}
+.left {width: 300px;float: left;display: inline-block;}
+.lefttop {float:left;display:inline-block;width:300px; height:300px}
+.leftbottom {float:left;display:inline-block;width:301px; height:300px;background:#262626}
+.leftbio {float:left;display:inline-block;width:300px; height:300px}
+.right {color:#000;background: #F2B629;float:right;display:inline-block;margin-left:5px;width:573px;padding: 10px; height:590px;border: 1px solid #F2B629;}
