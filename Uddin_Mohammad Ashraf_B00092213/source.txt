@@ -21,3 +21,6 @@ Gallery Image
 http://www.fox.com/empire/pics
 Gallery Code Template
 http://codepen.io/elad2412/pen/yfEGp
+
+Sitemap Source
+http://www.sitemappro.com/google-sitemap.html
