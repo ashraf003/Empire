@@ -1,147 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.google.com/schemas/sitemap/0.90">
-  <url>
-    <loc>http://www.empire.com/</loc>
-    <lastmod>2015-12-16T23:55:42+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>http://www.empire.com/cast.html</loc>
-    <lastmod>2015-12-16T17:24:16+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.empire.com/register.html</loc>
-    <lastmod>2015-12-16T15:35:07+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.empire.com/examples.html</loc>
-    <lastmod>2015-12-16T19:43:46+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.empire.com/company.html</loc>
-    <lastmod>2015-12-16T17:14:51+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.empire.com/contact.html</loc>
-    <lastmod>2015-12-16T17:11:38+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.empire.com/google-sitemap-protocol.html</loc>
-    <lastmod>2015-12-28T00:04:25+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.empire.com/bing-sitemap-xml.html</loc>
-    <lastmod>2015-12-28T00:04:25+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.empire.com/sitemaps-protocol.html</loc>
-    <lastmod>2015-12-16T23:39:56+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.empire.com/yahoo-sitemap-text-file.html</loc>
-    <lastmod>2015-12-16T23:41:56+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.empire.com/sitemap.html</loc>
-    <lastmod>2015-12-28T00:15:31+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.empire.com/support.html</loc>
-    <lastmod>2015-12-16T15:35:07+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.empire.com/privacy.html</loc>
-    <lastmod>2015-12-16T17:11:35+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.empire.com/copyright.html</loc>
-    <lastmod>2015-12-16T17:11:37+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.empire.com/google-sitemap.html</loc>
-    <lastmod>2015-12-16T19:48:55+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.empire.com/yahoo-sitemap.html</loc>
-    <lastmod>2015-12-16T19:55:49+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.empire.com/examples/example1.html</loc>
-    <lastmod>2015-12-16T17:18:49+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.empire.com/examples/example2.html</loc>
-    <lastmod>2015-12-17T23:45:43+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.empire.com/examples/example3.html</loc>
-    <lastmod>2015-12-16T17:18:47+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.empire.com/examples/example4.html</loc>
-    <lastmod>2015-12-16T17:18:46+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.empire.com/examples/example5.html</loc>
-    <lastmod>2015-12-16T17:18:46+01:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.empire.com/kb01.html</loc>
-    <lastmod>2015-12-15T15:48:41+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.empire.com/kb02.html</loc>
-    <lastmod>2015-12-15T15:48:47+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.empire.com/kb02.html</loc>
-    <lastmod>2015-12-15T15:48:47+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://babouddin.tk/</loc>
+  <lastmod>2015-12-16T21:18:09+00:00</lastmod>
+  <changefreq>never</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://babouddin.tk/index.html</loc>
+  <lastmod>2015-12-16T21:18:09+00:00</lastmod>
+  <changefreq>never</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://babouddin.tk/cast.html</loc>
+  <lastmod>2015-12-16T21:18:08+00:00</lastmod>
+  <changefreq>never</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://babouddin.tk/lucious.html</loc>
+  <lastmod>2015-12-16T21:18:09+00:00</lastmod>
+  <changefreq>never</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://babouddin.tk/cookie.html</loc>
+  <lastmod>2015-12-16T21:18:08+00:00</lastmod>
+  <changefreq>never</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://babouddin.tk/hakken.html</loc>
+  <lastmod>2015-12-16T21:18:08+00:00</lastmod>
+  <changefreq>never</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://babouddin.tk/gallery.html</loc>
+  <lastmod>2015-12-16T21:18:08+00:00</lastmod>
+  <changefreq>never</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://babouddin.tk/episodes.html</loc>
+  <lastmod>2015-12-16T21:18:08+00:00</lastmod>
+  <changefreq>never</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://babouddin.tk/the-outspoken-king.html</loc>
+  <lastmod>2015-12-16T21:18:09+00:00</lastmod>
+  <changefreq>never</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://babouddin.tk/false-imposition.html</loc>
+  <lastmod>2015-12-16T21:18:08+00:00</lastmod>
+  <changefreq>never</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://babouddin.tk/out-damned-spot.html</loc>
+  <lastmod>2015-12-16T21:18:09+00:00</lastmod>
+  <changefreq>never</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://babouddin.tk/merchandise.html</loc>
+  <lastmod>2015-12-16T21:18:09+00:00</lastmod>
+  <changefreq>never</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://babouddin.tk/shirt.html</loc>
+  <lastmod>2015-12-16T21:18:09+00:00</lastmod>
+  <changefreq>never</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://babouddin.tk/mug.html</loc>
+  <lastmod>2015-12-16T21:18:09+00:00</lastmod>
+  <changefreq>never</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://babouddin.tk/dvd.html</loc>
+  <lastmod>2015-12-16T21:18:08+00:00</lastmod>
+  <changefreq>never</changefreq>
+  <priority>0.80</priority>
+</url>
 </urlset>
